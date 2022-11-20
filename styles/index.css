@@ -1,0 +1,251 @@
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    margin-right: 372px;
+    }
+
+.box div{
+    padding-right: 0px;
+}
+
+.bg{
+    display: inline-block;
+}
+
+.lg{
+    vertical-align: top;
+    margin-left: -480px;
+    margin-top: 30px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 244, 242);
+    height: 675px;
+    vertical-align: top;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 52, 75);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.fb{
+    width: 165px;
+    height: 25px;    
+    background-color: rgb(37, 91, 155);
+    display: inline-block;
+}
+
+.ld{
+    width: 165px;
+    height: 25px;
+    background-color: rgb(0, 118, 182);
+    display: inline-block;
+}
+
+.logo1{
+    margin-left: -27px;
+    margin-top: 6px;
+}
+
+.logo2{
+    margin-left: -27px;
+    margin-top: 6px;
+    display: inline-block;
+}
+
+.reg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: white;
+    margin-left: 37px;
+    margin-top: -15px;
+}
+
+.line{
+    width: 100px;
+    height: 1px;
+    background-color: rgb(223, 217, 217);
+    display: inline-block;
+}
+
+.email{
+    width: 180px;
+    height: 40px;
+    display: inline-block;
+    border: solid 0.5px rgb(195, 194, 194);
+}
+
+.email input{
+    background-color: rgb(245, 244, 242);
+    border: solid 0px;
+    margin-left: 5px;
+}
+
+.email p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(122, 134, 157);
+    margin-top: 2px;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 3px;
+}
+
+.phone{
+    width: 180px;
+    height: 40px;
+    display: inline-block;
+    border: solid 0.5px rgb(195, 194, 194);
+    margin-left: 20px;
+}
+
+.phone input{
+    background-color: rgb(245, 244, 242);
+    border: solid 0px;
+    margin-left: 5px;
+}
+
+.phone p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(122, 134, 157);
+    margin-top: 2px;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 7px;
+}
+
+.email:focus-within {
+    border-left:solid 0.5px blue;
+}
+
+.email:hover {
+    border-left:solid 0.5px blue;
+}
+
+.phone:focus-within {
+    border-left:solid 0.5px blue;
+}
+
+.phone:hover {
+    border-left:solid 0.5px blue;
+}
+
+.type p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtype{
+    display: inline-block;
+    margin-left: 30px;
+    margin-block-end: 0em;
+}
+
+
+.infa1{
+    position: absolute; 
+    display: none; 
+    margin-left: 15px;
+    margin-top: 1em;
+    width: 310px;
+    height: 70px;
+    background-color: white;
+}
+
+.infa1 p{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(161, 157, 157);
+}
+
+.infa2{
+    position: absolute; 
+    display: none; 
+    margin-left: 15px;
+    margin-top: 1em;
+    width: 188px;
+    height: 70px;
+    background-color: white;
+}
+
+.infa2 p{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(161, 157, 157);
+}
+
+.infa3{
+    position: absolute; 
+    display: none; 
+    margin-left: 15px;
+    margin-top: 1em;
+    width: 170px;
+    height: 70px;
+    background-color: white;
+}
+
+.infa3 p{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(161, 157, 157);
+}
+
+.space{
+    display: none;
+    width: 300px;
+    height: 60px;
+    margin-top: 3em;
+}
+
+.type:hover .space{
+    display: block;
+}
+
+.subtype:hover .infa1{
+    display: block;
+}
+
+.subtype:hover .infa2{
+    display: block;
+}
+
+.subtype:hover .infa3{
+    display: block;
+}
+
+.terms{
+    color: blue;
+}
+
+.terms:focus-within {
+    color: blueviolet;
+}
+
+.create{
+    border-radius: 5px;
+    width: 275px;
+    height: 50px;    
+    background-color: rgb(35, 112, 231);
+    display: inline-block;
+}
+
+.crt{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
